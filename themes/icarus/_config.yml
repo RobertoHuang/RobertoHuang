@@ -1,0 +1,128 @@
+# 顶部菜单配置 
+menu:
+  主页: .
+  文章: archives
+  # 分类: categories
+  # 标签: tags
+  关于作者: about
+
+# 自定义配置部分
+customize:
+    # Logo图标
+    logo:
+        # 是否启用
+        enabled: true
+        # 宽度
+        width: 40
+        # 高度
+        height: 40
+        # 地址
+        url: images/logo.png
+    # 个人信息
+    profile:
+        # 是否启用
+        enabled: true 
+        # 头像地址
+        avatar: css/images/avatar.png
+        gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        # 作者名字
+        author: 黄太洪  
+        # 作者标题
+        author_title: Software Engineer
+        # 作者地址
+        location: FuZhou, China
+        # 链接地址
+        follow: https://github.com/RobertoHuang/
+    # 设置高亮
+    highlight: monokai
+    # 设置工具类位置(right/left)
+    sidebar: right 
+    # 是否启用缩略图
+    thumbnail: true
+    # 浏览器标签图标
+    favicon: css/images/avatar.png
+    # 社交信息地址
+    social_links:
+        github: https://github.com/RobertoHuang/
+        wechat: css/images/wechat.jpg
+        weibo: https://weibo.com/u/2978046817?refer_flag=1001030101_
+        linkedin: /
+    # 社交信息提示
+    social_link_tooltip: true
+
+# 工具栏
+widgets:
+    # 最近文章
+    - recent_posts
+    # 分类
+    - category
+    # 博客
+    # - archive
+    # 标签
+    - tag
+    # 标签分组
+    - tagcloud
+    # 链接地址
+    - links
+# 搜索模块
+search:
+    # you need to install `hexo-generator-json-content` before using Insight Search
+    insight: true 
+    # Swiftype搜索 enter swiftype install key here
+    swiftype: false
+    # 是否启用百度搜索 在启用百度搜索时 应把其他搜索引擎关闭
+    baidu: false
+
+# 评论模块
+comment:
+    disqus:  # enter disqus shortname here
+    duoshuo: # enter duoshuo shortname here
+    youyan: # enter youyan uid here
+    facebook: # enter true to enable
+    isso: # enter the domain name of your own comment isso server eg. comments.example.com
+    changyan:  # please fill in `appid` and `conf` to enable
+        appid: cytmLerJg
+        conf: 599cd31eb2a680e5a4beb603cee26219
+    gitment:
+        owner: #your github ID
+        repo: #the repo to store comments
+        #Register an OAuth application, and you will get a client ID and a client secret.
+        client_id: #your client ID
+        client_secret: #your client secret
+    livere: # enter livere uid here
+    valine: # Valine Comment System https://github.com/xCss/Valine
+        on:  # enter true to enable
+        appId:  # enter the leancloud application appId here
+        appKey: # enter the leancloud application appKey here
+        notify: # enter true to enable <Mail notifier> https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+        verify: # enter true to enable <Validation code>
+        placeholder: # Just Do It # enter the comment box placeholder
+        
+# 分享组件(options: jiathis, bdshare, addtoany, default)
+share: jiathis 
+
+# Plugins
+plugins:
+    # options: true, false
+    lightgallery: true 
+    # options: true, false
+    justifiedgallery: true 
+    # enter the tracking ID for your Google Analytics
+    google_analytics: 
+    # enter Google site verification code
+    google_site_verification: 
+    # enter Baidu Analytics hash key
+    baidu_analytics: 
+    # options: true, false
+    mathjax: false 
+
+# Miscellaneous
+miscellaneous:
+    # see http://ogp.me
+    open_graph: 
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+    links:
+        我的CSDN博客: http://blog.csdn.net/robertohuang
