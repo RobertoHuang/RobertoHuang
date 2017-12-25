@@ -34,7 +34,7 @@ customize:
         # 链接地址
         follow: https://github.com/RobertoHuang/
     # 设置高亮
-    highlight: monokai
+    highlight: androidstudio
     # 设置工具类位置(right/left)
     sidebar: right 
     # 是否启用缩略图
